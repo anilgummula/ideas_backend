@@ -19,10 +19,6 @@ app.use(cors());
 app.use("/api/ideas", router);
 
 
-app.get("/", (req, res) => {
-  res.send("Hello, you are welcome!");
-});
-
 
 app.listen(PORT, () => {
   console.log(`✅ Server is live at port: ${PORT}`);
